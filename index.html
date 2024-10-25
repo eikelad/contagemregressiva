@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Regressiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Informe os Dados</h1>
+    </header>
+    
+    <main>
+        <form id="eventForm">
+            <label for="eventName">Nome do Evento:</label>
+            <input type="text" id="eventName" placeholder="Ex: Aniversário" required>
+
+            <label for="eventDate">Data do Evento:</label>
+            <input type="date" id="eventDate" required>
+
+            <button type="submit">Adicionar Evento</button>
+        </form>
+
+        <section id="eventList">
+            <h2>Contagem dos tempos</h2>
+            <div id="eventContainer"></div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
